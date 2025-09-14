@@ -5,12 +5,6 @@
 ![API](https://img.shields.io/badge/API-REST%20Testing-FF6F61?logo=postman&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-100%25-00CC00?logo=automation&logoColor=white)
 
-🚀 **Профессиональные автотесты API на Python с Pytest**  
-✅ Готовое решение для тестирования REST API  
-🎯 Покрытие всех основных эндпоинтов  
-📊 Параметризованные тесты и фикстуры  
-✨ Чистый и поддерживаемый код
-
 🐍 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🐍
 
 ## 🎯 Ключевые особенности
@@ -59,7 +53,7 @@ Python_Autotest_Api_Pytest/
 ## 🎯 Примеры кода
 
 ### 🔧 Фикстура API клиента
-```
+```python
 @pytest.fixture
 def api_client(base_url, headers):
     class APIClient:
@@ -68,7 +62,7 @@ def api_client(base_url, headers):
     return APIClient(base_url, headers)
 ```
 ### 📊 Параметризация эндпоинтов
-```
+```python
 @pytest.mark.parametrize("endpoint", [
     "/trainers",
     "/trainers?limit=5", 
@@ -79,7 +73,7 @@ def test_status_code(api_client, endpoint):
     assert response.status_code == 200
 ```
 ### 🎯 Параметризация данных тренера
-```
+```python
 @pytest.mark.parametrize("test_id,expected_name", [
     (39589, "Ash")
 ])
@@ -89,7 +83,7 @@ def test_trainer_by_id(api_client, test_id, expected_name):
     assert trainer["trainer_name"] == expected_name
 ```
 ### 📋 Тестовые данные
-```
+```python
 PUT_TEST_DATA = [
     {"name": "Ash", "city": "Tokyo"},
     {"name": "Ash Ketchum", "city": "Pallet Town"}
@@ -101,7 +95,7 @@ PATCH_TEST_DATA = [
 ]
 ```
 ### ⚡ Фикстура очистки данных
-```
+```python
 @pytest.fixture
 def cleanup_trainer_data(api_client, trainer_id):
     original_response = api_client.get('/trainers', params={'trainer_id': trainer_id})
@@ -120,5 +114,3 @@ def cleanup_trainer_data(api_client, trainer_id):
 
 **Магия тестирования от ZimQA** ✨
 **Happy testing! 🎯🐍🚀**
-
-
