@@ -1,11 +1,11 @@
 # Python API Autotests with Pytest | Автотесты на Python  
-🐍 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🐍
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-Test%20Framework-0A9EDC?logo=pytest&logoColor=white)
 ![API](https://img.shields.io/badge/API-REST%20Testing-FF6F61?logo=postman&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-100%25-00CC00?logo=automation&logoColor=white)
 
-🐍 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🐍
+🐍---🐍
 
 ## 🎯 Ключевые особенности
 
@@ -28,7 +28,7 @@
 | **Fixtures** | Управление состоянием тестов | - |
 | **Parametrize** | Параметризованное тестирование | - |
 
-🐍 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🐍
+🐍---🐍
 
 ## 📁 Структура проекта
 
