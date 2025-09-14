@@ -5,7 +5,7 @@
 ![API](https://img.shields.io/badge/API-REST%20Testing-FF6F61?logo=postman&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-100%25-00CC00?logo=automation&logoColor=white)
 
-🐍---🐍
+🐍- - -🐍
 
 ## 🎯 Ключевые особенности
 
@@ -28,7 +28,7 @@
 | **Fixtures** | Управление состоянием тестов | - |
 | **Parametrize** | Параметризованное тестирование | - |
 
-🐍---🐍
+🐍- - -🐍
 
 ## 📁 Структура проекта
 
